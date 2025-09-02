@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='760' height='420' font-family='Consolas, monospace'>
+<rect width='100%' height='100%' fill='#1e1e1e'/>
+<text x='30' y='40' font-size='20' fill='#dcdcaa'>Simulador - Conversa</text>
+<text x='30' y='80' font-size='13' fill='#9cdcfe'>Usuário:</text>
+<text x='110' y='80' font-size='13' fill='#d4d4d4'>oi, preciso de visto para o canadá</text>
+<text x='30' y='110' font-size='13' fill='#c586c0'>Bot:</text>
+<text x='110' y='110' font-size='13' fill='#d4d4d4'>Para turismo de até 6 meses pode ser exigido eTA ou visto.</text>
+<text x='110' y='130' font-size='13' fill='#d4d4d4'>Você já possui passagem aérea? (Sim/Não)</text>
+<text x='30' y='170' font-size='13' fill='#9cdcfe'>Usuário:</text>
+<text x='110' y='170' font-size='13' fill='#d4d4d4'>não</text>
+<text x='30' y='200' font-size='13' fill='#c586c0'>Bot:</text>
+<text x='110' y='200' font-size='13' fill='#d4d4d4'>Recomendo iniciar pelo planejamento de datas para obter melhores tarifas.</text>
+<text x='30' y='240' font-size='13' fill='#9cdcfe'>Usuário:</text>
+<text x='110' y='240' font-size='13' fill='#d4d4d4'>quais pacotes você tem?</text>
+<text x='30' y='270' font-size='13' fill='#c586c0'>Bot:</text>
+<text x='110' y='270' font-size='13' fill='#d4d4d4'>Tenho 3 sugestões: Lisboa+Porto, Paris+Amsterdã, Roma+Florença.</text>
+<text x='110' y='290' font-size='13' fill='#d4d4d4'>Qual gostaria de ver?</text>
+<text x='30' y='360' font-size='11' fill='#6a9955'>Ilustração textual, não captura real.</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='780' height='360' font-family='Arial, sans-serif'>
+<rect width='100%' height='100%' fill='#f5f7fa'/>
+<text x='30' y='40' font-size='22' fill='#333'>Exemplo de Resposta Enriquecida (Pacotes)</text>
+<g>
+<rect x='40' y='70' width='210' height='230' rx='8' fill='#ffffff' stroke='#ccc'/>
+<text x='55' y='95' font-size='14'>Lisboa + Porto</text>
+<text x='55' y='115' font-size='12' fill='#555'>7 noites</text>
+<text x='55' y='140' font-size='12'>R$ 5.490</text>
+<rect x='55' y='155' width='150' height='30' fill='#0078d4' rx='4'/>
+<text x='75' y='175' font-size='12' fill='#fff'>Ver Detalhes</text>
+</g>
+<g>
+<rect x='290' y='70' width='210' height='230' rx='8' fill='#ffffff' stroke='#ccc'/>
+<text x='305' y='95' font-size='14'>Paris + Amsterdã</text>
+<text x='305' y='115' font-size='12' fill='#555'>8 noites</text>
+<text x='305' y='140' font-size='12'>R$ 7.290</text>
+<rect x='305' y='155' width='150' height='30' fill='#0078d4' rx='4'/>
+<text x='325' y='175' font-size='12' fill='#fff'>Ver Detalhes</text>
+</g>
+<g>
+<rect x='540' y='70' width='210' height='230' rx='8' fill='#ffffff' stroke='#ccc'/>
+<text x='555' y='95' font-size='14'>Roma + Florença</text>
+<text x='555' y='115' font-size='12' fill='#555'>6 noites</text>
+<text x='555' y='140' font-size='12'>R$ 5.980</text>
+<rect x='555' y='155' width='150' height='30' fill='#0078d4' rx='4'/>
+<text x='575' y='175' font-size='12' fill='#fff'>Ver Detalhes</text>
+</g>
+<text x='40' y='325' font-size='12' fill='#555'>Ilustração sintética de cartões adaptáveis.</text>
+</svg>

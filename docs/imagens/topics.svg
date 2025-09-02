@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='360' font-family='Arial, sans-serif'>
+<rect width='100%' height='100%' fill='#0d1117'/>
+<text x='30' y='40' font-size='24' fill='#58a6ff'>Tópicos - Copiloto DIO Viagens</text>
+<g font-size='14' fill='#c9d1d9'>
+<text x='40' y='80'>• Saudação</text>
+<text x='40' y='105'>• Consulta de Vistos</text>
+<text x='40' y='130'>• Pacotes Promocionais</text>
+<text x='40' y='155'>• Cotação de Câmbio</text>
+<text x='40' y='180'>• Clima no Destino</text>
+<text x='40' y='205'>• Suporte Humano</text>
+<text x='40' y='230'>• Encerramento</text>
+</g>
+<g font-size='12' fill='#8b949e'>
+<text x='360' y='105'>Intenções extraídas de exemplos de frases</text>
+<text x='360' y='130'>Cada tópico possui gatilhos e variáveis</text>
+</g>
+<rect x='350' y='70' width='330' height='210' fill='none' stroke='#30363d'/>
+<text x='40' y='280' font-size='12' fill='#8b949e'>Representação ilustrativa (não captura real)</text>
+</svg>

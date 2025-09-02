@@ -161,19 +161,55 @@ Responder com dicas de variação e segurança
 
 ---
 
-## 🖼 Capturas de Tela
+## 🖼 Capturas de Tela / Ilustrações
 
-Coloque suas imagens reais na pasta `docs/images` e substitua os placeholders abaixo:
+As ilustrações SVG geradas automaticamente estão na pasta `docs/imagens/`. Substitua por capturas reais (PNG/JPG) se desejar manter evidências do ambiente; basta reutilizar os mesmos nomes ou ajustar os caminhos abaixo.
 
-| Descrição | Imagem |
-|-----------|--------|
-| Visão geral dos tópicos | ![Topics](docs/images/topics.png) |
-| Fluxo: Consulta de Visto | ![Fluxo Visto](docs/images/fluxo-visto.png) |
-| Exemplo de resposta enriquecida | ![Card Pacotes](docs/images/card-pacotes.png) |
-| Teste no simulador | ![Simulador](docs/images/simulador.png) |
-| Variáveis em execução | ![Vars](docs/images/variaveis.png) |
+### Como Capturar & Subir
+1. Abra a tela desejada no Microsoft Copilot Studio.
+2. Pressione `Win + Shift + S` e selecione a área (Ferramenta de Recorte).
+3. Cole (`Ctrl + V`) em um editor de imagem (ou direto no Explorer se usar o recurso de colar arquivo) e salve dentro de `docs/images/` com o nome correspondente.
+4. No terminal (na raiz do repo):
+	```bash
+	git add docs/images
+	git commit -m "docs(images): adiciona screenshots"
+	git push origin main
+	```
+5. Atualize o README se mudar nomes/ordem.
 
-> Dica: No Windows, pressione `Win + Shift + S` para capturar e salvar rapidamente (Snipping Tool). Salve com o nome sugerido acima.
+### Tabela Resumida
+| Descrição | Arquivo (SVG) | Visual |
+|-----------|---------------|--------|
+| Visão geral dos tópicos criados | `topics.svg` | ![Visão geral dos tópicos](docs/imagens/topics.svg) |
+| Fluxo completo do tópico de visto | `fluxo-visto.svg` | ![Fluxo Consulta de Visto](docs/imagens/fluxo-visto.svg) |
+| Card / resposta enriquecida com pacotes | `card-pacotes.svg` | ![Card de pacotes promocionais](docs/imagens/card-pacotes.svg) |
+| Teste no simulador interno | `simulador.svg` | ![Execução no simulador do Copilot Studio](docs/imagens/simulador.svg) |
+| Variáveis sendo preenchidas | `variaveis.svg` | ![Estado das variáveis em execução](docs/imagens/variaveis.svg) |
+
+### Versão com Seções Individuais (opcional)
+Você pode remover a tabela acima e usar blocos separados como abaixo quando as imagens existirem, para permitir legendas mais ricas:
+
+#### 1. Visão Geral dos Tópicos
+![Visão geral dos tópicos](docs/imagens/topics.svg)
+Legenda: Lista de tópicos com intenções e ícones de status de publicação.
+
+#### 2. Fluxo de Consulta de Visto
+![Fluxo Consulta de Visto](docs/imagens/fluxo-visto.svg)
+Legenda: Exemplo de sequência de coleta de destino, nacionalidade e retorno de regra.
+
+#### 3. Resposta Enriquecida (Pacotes)
+![Card de pacotes promocionais](docs/imagens/card-pacotes.svg)
+Legenda: Uso de cartões adaptáveis simulando três ofertas com CTA.
+
+#### 4. Teste no Simulador
+![Execução no simulador do Copilot Studio](docs/imagens/simulador.svg)
+Legenda: Conversa real demonstrando fallback e follow-up.
+
+#### 5. Variáveis em Execução
+![Estado das variáveis em execução](docs/imagens/variaveis.svg)
+Legenda: Painel lateral mostrando persistência de contexto.
+
+> Se as imagens não aparecerem no GitHub: confirme com `git ls-files docs/imagens`.
 
 ---
 
@@ -206,4 +242,4 @@ Se este material te ajudou, considere marcar uma estrela (⭐) e compartilhar!
 
 Feito com foco em aprendizado e boas práticas de UX conversacional.
 
-― Autor: (adicione seu nome ou perfil)
+― Autor: Leandro da Silva Stampini

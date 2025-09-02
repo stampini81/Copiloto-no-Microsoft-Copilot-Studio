@@ -160,35 +160,6 @@ Responder com dicas de variação e segurança
 ```
 
 ---
-
-## 🖼 Capturas de Tela / Ilustrações
-
-As ilustrações SVG geradas automaticamente estão na pasta `docs/imagens/`. Substitua por capturas reais (PNG/JPG) se desejar manter evidências do ambiente; basta reutilizar os mesmos nomes ou ajustar os caminhos abaixo.
-
-### Como Capturar & Subir
-1. Abra a tela desejada no Microsoft Copilot Studio.
-2. Pressione `Win + Shift + S` e selecione a área (Ferramenta de Recorte).
-3. Cole (`Ctrl + V`) em um editor de imagem (ou direto no Explorer se usar o recurso de colar arquivo) e salve dentro de `docs/images/` com o nome correspondente.
-4. No terminal (na raiz do repo):
-	```bash
-	git add docs/images
-	git commit -m "docs(images): adiciona screenshots"
-	git push origin main
-	```
-5. Atualize o README se mudar nomes/ordem.
-
-### Tabela Resumida
-| Descrição | Arquivo (SVG) | Visual |
-|-----------|---------------|--------|
-| Visão geral dos tópicos criados | `topics.svg` | ![Visão geral dos tópicos](docs/imagens/topics.svg) |
-| Fluxo completo do tópico de visto | `fluxo-visto.svg` | ![Fluxo Consulta de Visto](docs/imagens/fluxo-visto.svg) |
-| Card / resposta enriquecida com pacotes | `card-pacotes.svg` | ![Card de pacotes promocionais](docs/imagens/card-pacotes.svg) |
-| Teste no simulador interno | `simulador.svg` | ![Execução no simulador do Copilot Studio](docs/imagens/simulador.svg) |
-| Variáveis sendo preenchidas | `variaveis.svg` | ![Estado das variáveis em execução](docs/imagens/variaveis.svg) |
-
-### Versão com Seções Individuais (opcional)
-Você pode remover a tabela acima e usar blocos separados como abaixo quando as imagens existirem, para permitir legendas mais ricas:
-
 #### 1. Visão Geral dos Tópicos
 ![Visão geral dos tópicos](docs/imagens/topics.svg)
 Legenda: Lista de tópicos com intenções e ícones de status de publicação.
@@ -208,8 +179,6 @@ Legenda: Conversa real demonstrando fallback e follow-up.
 #### 5. Variáveis em Execução
 ![Estado das variáveis em execução](docs/imagens/variaveis.svg)
 Legenda: Painel lateral mostrando persistência de contexto.
-
-> Se as imagens não aparecerem no GitHub: confirme com `git ls-files docs/imagens`.
 
 ---
 

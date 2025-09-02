@@ -228,7 +228,7 @@ Legenda: Painel lateral mostrando persistência de contexto.
 
 ## 📄 Licença
 
-Uso livre para fins educacionais e demonstrativos. Ajuste conforme necessidades comerciais.
+Distribuído sob a licença **MIT**. Consulte o arquivo `LICENSE` para detalhes.
 
 ---
 
